@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns
+namespace DesignPatterns.StrategyPattern
 {
     public interface IWeapon
     {

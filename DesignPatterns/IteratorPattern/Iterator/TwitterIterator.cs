@@ -1,8 +1,8 @@
 ﻿
 using System;
-namespace DesignPatterns.Iterator
+namespace DesignPatterns.IteratorPattern.Iterator
 {
-    class TwitterIterator : IIterator
+    class TwitterIterator : DesignPatterns.IteratorPattern.Iterator.IIterator
     {
         private string[] Users;
         private int postion;
@@ -11,22 +11,22 @@ namespace DesignPatterns.Iterator
             Users = users;
             postion = 0;
         }
-        void IIterator.First()
+        void DesignPatterns.IteratorPattern.Iterator.IIterator.First()
         {
             postion = 0;
         }
 
-        string IIterator.Next()
+        string DesignPatterns.IteratorPattern.Iterator.IIterator.Next()
         {
             return Users[postion++];
         }
 
-        bool IIterator.IsDone()
+        bool DesignPatterns.IteratorPattern.Iterator.IIterator.IsDone()
         {
             return postion >= Users.Length;
         }
 
-        string IIterator.CurrentItem()
+        string DesignPatterns.IteratorPattern.Iterator.IIterator.CurrentItem()
         {
             return Users[postion];
         }

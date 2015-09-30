@@ -1,7 +1,7 @@
 ﻿using System;
-namespace DesignPatterns.Observer
+namespace DesignPatterns.ObserverPattern.Observer
 {
-    class User : ISubscriber
+    class User : DesignPatterns.ObserverPattern.Observer.ISubscriber
     {
         public void Notify()
         {

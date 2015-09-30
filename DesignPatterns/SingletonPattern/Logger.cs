@@ -1,18 +1,18 @@
 ﻿using System;
-namespace DesignPatterns
+namespace DesignPatterns.SingletonPattern
 {
     //Singleton Class
     public class Logger
     {
-        private static Logger logger = null;
+        private static DesignPatterns.SingletonPattern.Logger logger = null;
         //private creator prevents instanciation
         private Logger() { }
 
-        public static Logger getInstance()
+        public static DesignPatterns.SingletonPattern.Logger getInstance()
         {
             if (logger == null)
             {
-                logger = new Logger();
+                logger = new DesignPatterns.SingletonPattern.Logger();
             }
             return logger;
         }

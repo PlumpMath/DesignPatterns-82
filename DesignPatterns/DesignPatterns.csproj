@@ -42,25 +42,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregate\Facebook.cs" />
-    <Compile Include="Agregate\ISocialNetworking.cs" />
-    <Compile Include="Agregate\Twitter.cs" />
-    <Compile Include="Iterator\FacebookIterator.cs" />
-    <Compile Include="Iterator\IIterator.cs" />
-    <Compile Include="Iterator\TwitterIterator.cs" />
-    <Compile Include="IWeapon.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Observer\Moderator.cs" />
-    <Compile Include="Observer\User.cs" />
+    <Compile Include="IDesignPattern.cs" />
+    <Compile Include="IteratorPattern\Agregate\Facebook.cs" />
+    <Compile Include="IteratorPattern\Agregate\ISocialNetworking.cs" />
+    <Compile Include="IteratorPattern\Agregate\Twitter.cs" />
+    <Compile Include="DecoratorPattern\Component\Icecream.cs" />
+    <Compile Include="DecoratorPattern\ConcreteComponent\Chocolate.cs" />
+    <Compile Include="DecoratorPattern\ConcreteComponent\Vanilla.cs" />
+    <Compile Include="DecoratorPattern\ConcreteDecorator\Sprinkle.cs" />
+    <Compile Include="DecoratorPattern\ConcreteDecorator\Fudge.cs" />
+    <Compile Include="DecoratorPattern\Decorator\Topping.cs" />
+    <Compile Include="IteratorPattern\IteratorPattern.cs" />
+    <Compile Include="IteratorPattern\Iterator\FacebookIterator.cs" />
+    <Compile Include="IteratorPattern\Iterator\IIterator.cs" />
+    <Compile Include="IteratorPattern\Iterator\TwitterIterator.cs" />
+    <Compile Include="ObserverPattern\ObserverPattern.cs" />
+    <Compile Include="SingletonPattern\SingletonPattern.cs" />
+    <Compile Include="StrategyPattern\IWeapon.cs" />
+    <Compile Include="SingletonPattern\Logger.cs" />
+    <Compile Include="ObserverPattern\Observer\Moderator.cs" />
+    <Compile Include="ObserverPattern\Observer\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Observer\ISubscriber.cs" />
-    <Compile Include="Subject\Axe.cs" />
-    <Compile Include="Subject\Character.cs" />
-    <Compile Include="Subject\Club.cs" />
-    <Compile Include="Subject\Null.cs" />
-    <Compile Include="Subject\Sword.cs" />
-    <Compile Include="Subject\YoutubeChannel.cs" />
+    <Compile Include="ObserverPattern\Observer\ISubscriber.cs" />
+    <Compile Include="StrategyPattern\Axe.cs" />
+    <Compile Include="StrategyPattern\Character.cs" />
+    <Compile Include="StrategyPattern\Club.cs" />
+    <Compile Include="StrategyPattern\Null.cs" />
+    <Compile Include="StrategyPattern\StrategyPattern.cs" />
+    <Compile Include="StrategyPattern\Sword.cs" />
+    <Compile Include="ObserverPattern\Subject\YoutubeChannel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

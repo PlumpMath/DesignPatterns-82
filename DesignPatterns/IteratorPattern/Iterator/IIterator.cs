@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Iterator
+namespace DesignPatterns.IteratorPattern.Iterator
 {
     public interface IIterator
     {

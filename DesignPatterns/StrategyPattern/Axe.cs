@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DesignPatterns.Subject
+namespace DesignPatterns.StrategyPattern
 {
-    public class Axe : IWeapon
+    public class Axe : DesignPatterns.StrategyPattern.IWeapon
     {
         public void Use()
         {

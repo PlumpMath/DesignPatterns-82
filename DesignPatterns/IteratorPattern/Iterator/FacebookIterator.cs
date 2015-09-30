@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DesignPatterns.Iterator
+namespace DesignPatterns.IteratorPattern.Iterator
 {
-    class FacebookIterator : IIterator
+    class FacebookIterator : DesignPatterns.IteratorPattern.Iterator.IIterator
     {
         private LinkedList<string> Users;
         private int postion;
@@ -13,22 +13,22 @@ namespace DesignPatterns.Iterator
             Users = users;
             postion = 0;
         }
-        void IIterator.First()
+        void DesignPatterns.IteratorPattern.Iterator.IIterator.First()
         {
             postion = 0;
         }
 
-        string IIterator.Next()
+        string DesignPatterns.IteratorPattern.Iterator.IIterator.Next()
         {
             return Users.ElementAt(postion++);
         }
 
-        bool IIterator.IsDone()
+        bool DesignPatterns.IteratorPattern.Iterator.IIterator.IsDone()
         {
             return postion >= Users.Count();
         }
 
-        string IIterator.CurrentItem()
+        string DesignPatterns.IteratorPattern.Iterator.IIterator.CurrentItem()
         {
             return Users.ElementAt(postion);
         }

@@ -1,5 +1,5 @@
 ﻿
-namespace DesignPatterns.Observer
+namespace DesignPatterns.ObserverPattern.Observer
 {
     public interface ISubscriber
     {
