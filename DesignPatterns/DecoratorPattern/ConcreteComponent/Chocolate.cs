@@ -8,5 +8,9 @@ namespace DesignPatterns.DecoratorPattern.ConcreteComponent
 {
     public class Chocolate : DesignPatterns.DecoratorPattern.Component.Icecream
     {
+        public override double Cost()
+        {
+            return 2.5;
+        }
     }
 }

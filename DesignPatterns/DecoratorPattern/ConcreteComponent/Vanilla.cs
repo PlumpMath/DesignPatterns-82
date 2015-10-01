@@ -9,5 +9,9 @@ namespace DesignPatterns.DecoratorPattern.ConcreteComponent
 {
     public class Vanilla : DesignPatterns.DecoratorPattern.Component.Icecream
     {
+        public override double Cost()
+        {
+            return 1.75;
+        }
     }
 }
