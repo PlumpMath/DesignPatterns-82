@@ -26,8 +26,12 @@ namespace DesignPatterns
             DesignPattern = new IteratorPattern.IteratorPattern();
             DesignPattern.Run();
 
-            Console.WriteLine("Design Pattern");
+            Console.WriteLine("Decorator Pattern");
             DesignPattern = new DecoratorPattern.DecoratorPattern();
+            DesignPattern.Run();
+
+            Console.WriteLine("Facade Pattern");
+            DesignPattern = new FacadePattern.FacadePattern();
             DesignPattern.Run();
         }
     }

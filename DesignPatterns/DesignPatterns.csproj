@@ -43,6 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DecoratorPattern\DecoratorPattern.cs" />
+    <Compile Include="FacadePattern\Concrete\Cheese.cs" />
+    <Compile Include="FacadePattern\Concrete\Dough.cs" />
+    <Compile Include="FacadePattern\Concrete\Oven.cs" />
+    <Compile Include="FacadePattern\Concrete\Sauce.cs" />
+    <Compile Include="FacadePattern\Concrete\Topping.cs" />
+    <Compile Include="FacadePattern\FacadePattern.cs" />
+    <Compile Include="FacadePattern\Facade\PizzaFacade.cs" />
     <Compile Include="IDesignPattern.cs" />
     <Compile Include="IteratorPattern\Agregate\Facebook.cs" />
     <Compile Include="IteratorPattern\Agregate\ISocialNetworking.cs" />
