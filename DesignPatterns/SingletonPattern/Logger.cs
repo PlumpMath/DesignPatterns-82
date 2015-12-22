@@ -10,7 +10,8 @@ namespace DesignPatterns.SingletonPattern
 
         public static DesignPatterns.SingletonPattern.Logger getInstance()
         {
-            if (logger == null)
+            //Yoda condition
+            if (null ==logger)
             {
                 logger = new DesignPatterns.SingletonPattern.Logger();
             }
