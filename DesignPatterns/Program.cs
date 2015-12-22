@@ -33,6 +33,10 @@ namespace DesignPatterns
             Console.WriteLine("Facade Pattern");
             DesignPattern = new FacadePattern.FacadePattern();
             DesignPattern.Run();
+
+            Console.WriteLine("Command Pattern");
+            DesignPattern = new CommandPattern.CommandPattern();
+            DesignPattern.Run();
         }
     }
 }

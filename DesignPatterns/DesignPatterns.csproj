@@ -42,6 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandPattern\AbstractCommand\ICommand.cs" />
+    <Compile Include="CommandPattern\CommandPattern.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\AirConOn.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\LightsOff.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\LightsOn.cs" />
+    <Compile Include="CommandPattern\Invoker\RemoteControl.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\AirConDecreaseTemp.cs" />
+    <Compile Include="CommandPattern\Receiver\AirConditioner.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\AirConIncreaseTemp.cs" />
+    <Compile Include="CommandPattern\ConcreteCommand\AirConOff.cs" />
+    <Compile Include="CommandPattern\Receiver\Light.cs" />
     <Compile Include="DecoratorPattern\DecoratorPattern.cs" />
     <Compile Include="FacadePattern\Concrete\Cheese.cs" />
     <Compile Include="FacadePattern\Concrete\Dough.cs" />
