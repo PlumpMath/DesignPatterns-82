@@ -9,6 +9,9 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             IDesignPattern DesignPattern = null;
+            Console.WriteLine("State");
+            DesignPattern = new StateDesignPattern.StateDesignPattern();
+            DesignPattern.Run();
 
             Console.WriteLine("Strategy and Null");
             DesignPattern = new StrategyPattern.StrategyPattern();
