@@ -77,6 +77,11 @@
     <Compile Include="IteratorPattern\Iterator\TwitterIterator.cs" />
     <Compile Include="ObserverPattern\ObserverPattern.cs" />
     <Compile Include="SingletonPattern\SingletonPattern.cs" />
+    <Compile Include="StateDesignPattern\StateContext.cs" />
+    <Compile Include="StateDesignPattern\StateDesignPattern.cs" />
+    <Compile Include="StateDesignPattern\StateLowerCase.cs" />
+    <Compile Include="StateDesignPattern\IStateMode.cs" />
+    <Compile Include="StateDesignPattern\StateMultipleUpperCase.cs" />
     <Compile Include="StrategyPattern\IWeapon.cs" />
     <Compile Include="SingletonPattern\Logger.cs" />
     <Compile Include="ObserverPattern\Observer\Moderator.cs" />
